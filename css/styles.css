@@ -71,10 +71,13 @@ a:focus{
 /*телефон+почта*/
 .telmail{
     color:var(--second-color);
+}
+.telmail1{
+    color:var(--second-color);
     fill: var(--second-color) ;
 }
-.telmail:focus,
-.telmail:hover{
+.telmail1:focus,
+.telmail1:hover{
     fill: var(--brand-color);
 }
 .telmail2{
@@ -341,7 +344,10 @@ img{
 }
 .telmail1{
     display:flex;
-    padding-right: 32px; 
+    margin-right: 50px ; 
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 .topimg-smartphone{
     height: 16px;
@@ -354,12 +360,12 @@ img{
     
 }
 .about-us-div{
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F5F4FA;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-bottom: 30px;
 }
 .social-svg{
@@ -367,8 +373,12 @@ img{
     width: 20px;   
 }
 .social-link{
-    margin-left: 10px ;
-    padding: 12px;
+    padding: 0px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     fill: var(--grey-color);
 }
@@ -380,12 +390,15 @@ img{
 .social-links-ul{
     padding-top: 16px;
     display:flex;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: -10px;
+    justify-content: center;
 }
 .social-links{
     margin-left: 0px;
+    margin-right: 10px;
+}
+.social-links1{
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .clients{
     text-align: center;
@@ -405,7 +418,12 @@ img{
     margin-left: 30px;
 }
 .clientlink{
-    padding: 16px 32px 16px 32px;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
     border: 1px solid var(--grey-color);
     border-radius: 5px;
     fill: var(--grey-color);
@@ -436,10 +454,15 @@ img{
     margin-left: 0px;
 }
 .bottom-link{
-    padding: 12px;
+    padding: 0px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background: #FFFFFF1A;
-    fill: var(--grey-color);
+    fill: var(--white-color);
 }
 .bottomjoin >  .bottom-links + .bottom-links{
     margin-left: 10px;
